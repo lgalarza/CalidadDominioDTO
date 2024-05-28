@@ -43,5 +43,13 @@ namespace CalidadDominioDTO
             public string? usuarioTransaccion { get; set; }
             public string? equipoTransaccion { get; set; }
         }
+
+        public class TipoCacaoDTO
+        {
+            public short? codigoTipoCacao { get; set; }
+            public string? nombreTipoCacao { get; set; }
+            public bool? estadoTipoCacao { get; set; }
+            public string? descripcionEstadoTipoCacao { get; set; }
+        }
     }
 }
