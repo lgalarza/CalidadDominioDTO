@@ -99,6 +99,7 @@ namespace CalidadDominioDTO
 
         public class PronosticoCosechaDTO
         {
+            public short? codigoPronosticoCosecha { get; set; }
             public string? codigoZona { get; set; }
             public decimal? enero { get; set; }
             public decimal? febrero { get; set; }
