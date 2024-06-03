@@ -51,5 +51,16 @@ namespace CalidadDominioDTO
             public bool? estadoTipoCacao { get; set; }
             public string? descripcionEstadoTipoCacao { get; set; }
         }
+
+        public class GruposDTO
+        {
+            public short? codigoGrupo { get; set; }
+            public string? nombreGrupo { get; set; }
+            public string? codigoZona { get; set; }
+            public bool? estadoGrupo { get; set; }
+            public string? descripcionEstadoGrupo { get; set; }
+        }
+
+
     }
 }
