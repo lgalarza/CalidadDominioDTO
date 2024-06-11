@@ -101,6 +101,7 @@ namespace CalidadDominioDTO
         {
             public short? codigoPronosticoCosecha { get; set; }
             public string? codigoZona { get; set; }
+            public short? anio { get; set; }
             public decimal? enero { get; set; }
             public decimal? febrero { get; set; }
             public decimal? marzo { get; set; }
