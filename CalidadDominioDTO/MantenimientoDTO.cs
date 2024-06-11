@@ -118,5 +118,23 @@ namespace CalidadDominioDTO
             public bool? estadoPronosticoCosecha { get; set; }
             public string? descripcionEstadoPronosticoCosecha { get; set; }
         }
+
+        public class CatalogoDTO
+        {
+            public short? codigoCatalogo { get; set; }
+            public string? nombreCatalogo { get; set; }
+            public bool? estadoCatalogo { get; set; }
+            public string? descripcionEstadoCatalogo { get; set; }
+            public string? usuarioTransaccion { get; set; }
+            public string? equipoTransaccion { get; set; }
+            public string? opcion { get; set; }
+        }
+
+
+        public class DetalleCatalogoDTO
+        {
+            public string codigoCatalogo { get; set; }
+            public string nombreCatalogo { get; set; }
+        }
     }
 }
