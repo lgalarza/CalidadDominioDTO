@@ -52,5 +52,14 @@
             public short codigoFuncion { get; set; }
             public string nombreFuncion { get; set; }
         }
+
+        public class PerfilDTO
+        {
+            public short codigoPerfil { get; set; }
+            public string nombrePerfil { get; set; }
+            public bool estadoPerfil { get; set; }
+            public string descripcionEstadoPerfil { get; set; }
+         
+        }
     }
 }
